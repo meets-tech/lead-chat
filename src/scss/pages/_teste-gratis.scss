@@ -1,0 +1,58 @@
+
+
+.page-teste{
+    height:100vh;
+    background: $gradient-lead;
+
+    .chamada-teste{
+        background: $gradient-black;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .formulario-teste{
+        background: $white;
+        border-radius: 0 10px 10px 0;
+    }
+
+}
+
+.sucesso{
+    img{
+        width: 5em;
+        height: 5em;
+        margin-bottom: 1em;
+    }
+}
+
+
+@media (max-width: 490px) {
+    .page-teste{
+        height: auto!important;
+        .chamada-teste{
+            padding: 2em!important;
+            border-radius: 10px 10px 0 0;
+            img{
+                margin-bottom: 1em;
+            }
+        }
+    }
+    .teste-gratis{
+        margin: 2em 0;
+    }
+    #box-teste{
+        flex-direction: column;
+        .dzForm{
+            .d-flex{
+                flex-direction: column;
+            }
+            .w-50, .w-33{
+                width: 100%!important;
+                margin: 0!important;
+            }
+        }
+    }
+    .formulario-teste{
+        padding: 1em;
+        border-radius: 0 0 10px 10px!important;
+    }
+  }

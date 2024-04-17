@@ -1,0 +1,99 @@
+//to ignore cli warning about deprecated mixin
+$enable-deprecation-messages: false;
+$ignore-warning             : true;
+
+:root{
+	--gradient: linear-gradient(to right, #662D91 0, #00adec 100%);
+	--gradient-sec: linear-gradient(to right,#662D91 0,#00adec 100%);
+}
+
+// Color
+$primary   : #662D91;
+//$secondary : #1f2471 !default;
+$secondary : #00aeed !default;
+$success   : #029e76 !default;
+$info      : #00aeed !default;
+$warning   : #fea500 !default;
+$danger    : #ff5269 !default;
+$light     : #faf8f2 !default;
+$dark      : #232323;
+$pink      : #ED1E79;
+$primary-dark : #531c7c;
+$secondary-dark : #0091c6;
+
+$bg-primary   : #662D91;
+$bg-primary-light   : #F75708;
+$bg-primary-dark   : #F4210B;
+$bg-primary-60   : #FB8C6A;
+$bg-primary-30   : #FDC5B4;
+$bg-primary-10   : #ffeffe;
+
+
+// Body
+$body-bg   : #fff;
+$body-cinza: #f4f4f4;
+$body-color: #888;
+
+$gradient-lead: linear-gradient(270deg, rgba(0,173,236,1) 0%, rgba(94,30,189,1) 33%, rgba(102,45,145,1) 70%);
+$gradient-black: linear-gradient(to right,#191919 0,#2a2a2a 51%,#2a2a2a 100%);
+
+
+// Typography
+$font-family-base : 'Roboto', sans-serif;
+$font-family-title : 'Sora', sans-serif;
+$headings-font-weight   : 700;
+
+// $headings-font-family:        $fm;
+$font-size-base         : 1rem !default;
+$font-weight-base       : 400 !default;
+
+// $line-height-base    : 1.6;
+$h1-font-size           : 3.375rem;
+$h2-font-size           : 2rem;
+$h3-font-size           : 1.8rem;
+$h4-font-size           : 1.5625rem;
+$h5-font-size           : 1.25rem;
+$h6-font-size           : 0.875rem;
+
+$text-muted : #AEAED5;
+$colors     : () !default;
+
+$heading-primary-size: 1.8rem;
+$sub-heading-size    : 1.6rem !default;
+$grid-gutter-width   : 30px;
+$dropdown-lik-color  : $body-color;
+$border-color        : #E1E1F0;
+$headings-color      :#000 !default;
+$grid-breakpoints    : (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440);
+$container-max-widths: (sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1199px) !default;
+
+$input-btn-focus-width: 0rem !default;
+$border-radius-base   : 4px !default;
+$shadow-color: rgba(160, 159, 202, 0.15);
+$border-radius: .7rem;
+
+
+// Other Color
+$orange  : #ff8853;
+$skyblue : #00aeff;
+$maroon  : #9e0168;
+$yellow  : #ffa808;
+$red     : #ff586e;
+$green   : #029e76;
+$blue    : #00adec;
+$cinza   :#8F8F8F;
+$gray   :#c4c4c4;
+
+// Color Opacity
+$primary-light: rgba($primary,0.1);
+$secondary-light: rgba($secondary,0.1);
+$success-light: rgba($success,0.1);
+$warning-light: rgba($warning,0.1);
+$danger-light: rgba($danger,0.1);
+$info-light: rgba($info,0.1);
+$dark-light: rgba($dark,0.1);
+$white-light: rgba($light,0.1);
+$yellow-light: rgba($yellow,0.1);

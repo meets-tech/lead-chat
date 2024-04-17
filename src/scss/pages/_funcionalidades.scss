@@ -1,0 +1,29 @@
+
+
+.page-funcionalidades{
+    h3{
+        color: $white;
+        font-weight: 300;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2em 0 4em 0;
+
+        li{
+            margin: 1em .5em;
+            a{
+                font-family: $font-family-title;
+                padding: 1em 2em;
+                border-radius: 5em;
+                background-color: #ebeaea;
+                &:hover{
+                    background-color: $bg_primary;
+                    color:$white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,549 @@
+
+.page-content{
+    background-color: $body-cinza;
+   }
+
+.banner-three {
+    // background: #232323 url(.././public/images/background/capa-home.webp) center top no-repeat;
+    background: $gradient-lead;
+	padding: 4em;
+    height: 730px;
+    position: relative;
+    display: flex;
+    align-items : center;
+
+   .banner-content {
+       h1 {
+            color: $white;
+           font-size: 3.3rem;
+           line-height:3.6rem;
+           span{
+            font-weight: 300;
+           }
+           
+       }
+
+       .sub-title {
+           font-size    : 18px;
+           font-weight  : 600;
+           margin-bottom: 12px;
+       }
+   }
+}
+
+h5.sub-title{
+    color: $cinza;
+}
+
+.banner-indicado{
+	background: #232323 url(.././public/images/background/bg-indicado-jobb.jpg) center center no-repeat;
+	padding: 4em;
+    align-items: center;
+
+    h3, li{
+        color: $white;
+    }
+    li{
+        font-size: 1.4em;
+        line-height: 1.4em;
+        margin-bottom: .7em;
+        display: flex;
+        i{
+            margin-right: .5em;
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+#slide-novidades{
+    h3{
+        font-size: 1.55em;
+        font-weight: 500;
+        margin-top: 1em;
+    }
+}
+
+.box-setores{
+    background-color: $bg-primary-10;
+    padding: 2em;
+    height: 100%;
+    h4{
+        font-weight: 400;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+.vantagens{
+    img{
+        height: 5em;
+    }
+}
+.box-plano{
+    background-color: $bg-primary-10;
+
+    .icon-plano{
+       height: 23em;
+       margin-top: 2em;
+    }
+    .tit-preco{
+        span{
+            color: $primary;
+        }
+    }
+}
+
+
+.head{
+    width: 100%;
+    margin: 0 auto;
+    h2{
+        color: $dark;
+    }
+    h3{
+        font-size: 1.5em;
+        font-weight: 400;
+        color: $primary;
+        margin-bottom: 2em;
+    }
+}
+.item{
+    margin: 2em 0;
+
+    img{
+        border-radius: 1em;
+    }
+}
+.testimonial-1{
+    padding: 5em 15em;
+
+    .testimonial-pic{
+        border-color: $gray;
+        border-radius: 30%;
+        width: 80px;
+        height: 80px;
+    }
+    .testimonial-text{
+        font-size: 1.3em;
+    }
+}
+.testimonial-detail{
+    .clearfix{
+        text-align: left;
+    }
+    .testimonial-name{
+        margin-bottom: 0;
+    }
+    
+}
+
+.owl-nav{
+    display: none;
+}
+.slick-dots{
+    position: relative;
+    bottom: 0;
+    padding:0 0 2em 0;
+}
+
+#somos{
+    .principais{
+        .card{
+            padding: 1.5em;
+            min-height: 22em;
+        }
+        img{
+            width: 4em;
+        }
+    }
+    
+    h4{
+        font-size: 1.8em;
+        font-weight: 500;
+        margin: 1em 0 .5em;
+    }
+    p{
+        color: $dark;
+    }
+}
+.addons{
+    .card{
+        align-items: center;
+        img{
+            margin-bottom: 1em;
+            width: 3.5em;
+        }
+    }
+}
+
+.mentor{
+    display: flex;
+}
+
+.breve{
+    background: rgb(236,189,84);
+    background: linear-gradient(45deg, rgba(236,189,84,1) 0%, rgba(232,101,45,1) 35%, rgba(173,18,130,1) 65%, rgba(81,84,198,1) 100%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+
+    p{
+        margin: 0;
+    }
+}
+
+.crm-mais{
+    font-size:6rem;
+}
+
+.c-at{
+    font-size:5rem;
+    line-height:4.8rem;
+}
+
+.banner-content{
+    h6{color: $white; font-size: 1.3em; font-weight: 400; margin-bottom: 2em!important;}
+    a{font-size: 1.4em;
+    
+    }
+
+    ul{
+        margin-bottom: 1rem;
+
+        svg{
+            color: $info;
+            width: 1rem;
+        }
+    }
+}
+
+.tag{
+    border-radius: 5em;
+    border: 3px solid $primary;
+    padding: .3em 1em;
+    font-size: 1.1em;
+    font-family: $font-family-title;
+}
+
+.man-central{
+    z-index: 10;
+    bottom: 0;
+    right:0;
+    display: flex;
+}
+.lista-contatos{
+    z-index: 1;
+    top: -4rem;
+    left:-2rem;
+}
+.robo{
+    z-index: 100;
+    top: 0;
+    right:0;
+}
+.icons-msg{
+    z-index: 100;
+    bottom: -5rem;
+    left:0;
+}
+.nav-msg{
+    z-index: 100;
+    bottom: 5rem;
+    right:-2rem;
+}
+
+.escolher-meets{
+    padding-bottom: 10rem!important;
+}
+
+#action-home{
+    position: relative;
+    top: -8rem;
+}
+
+.icons-social{
+
+    li{
+        margin: 0 1rem 1rem 0;
+    }
+}
+
+.star-rating{
+    display: flex;
+}
+
+.netflix{
+    bottom: -12em;
+    left: 8em;
+}
+.hbo{
+    top: -9em;
+    left: 16em;
+}
+.prime-video{
+    bottom: -8em;
+    left: 17em;
+}
+.globoplay{
+    top: -11em;
+    left: 8em;
+}
+.videos-publicitarios{
+    top: -7em;
+    left: -1em;
+}
+.twitch{
+    bottom: -9em;
+    left: 1em;
+    z-index: 10;
+}
+.youtube{
+    top: -5em;
+    left: 7em;
+    z-index: 15;
+}
+.banner-app{
+    height: 30em;
+    background: url(.././public/images/background/bg-app-jobb.png) center bottom no-repeat!important;
+    background-size: contain!important;
+}
+#app{
+    h3{
+        margin-bottom: .5em;
+    }
+    h2{
+        margin-bottom: .5em;
+        font-size: 2em;
+    }
+    .apps{
+        position: absolute;
+        bottom:-5em;
+        right: 2em;
+    }
+    a{
+        margin: 0 1em 0 0;
+        padding: 0;
+        img{
+            width: 13em;
+        }
+    }
+}
+.btn-bot{
+    background-color: $purple;
+        &:hover{
+            background-color: #510495;
+    }
+   }
+   .btn-crm{
+    background-color: $info;
+    color: $white;
+        &:hover{
+            background-color: #0072ed;
+            color: $white;
+        }
+    }
+   .icon-bot{
+    position: absolute;
+    height: 25em;
+    right: 13em;
+    top: 3em;
+   }
+
+   .text-plano{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.espirito, .aws{
+    margin: 1em;
+    img{
+        width: 4em;
+        margin-bottom: .5em;
+    }
+    p{
+        font-size: .8em;
+        color: $white;
+    }
+}
+.espirito{
+    p{
+        font-style:italic;
+    }
+}
+.accordion{
+    width: 100%;
+}
+.accordion-button{
+    border: none;
+    background-color: $white;
+    width: 100%;
+    padding: 1em;
+    font-size: .5em;
+    text-align: left;
+}
+.accordion-body{
+    width: 100%;
+    padding: 1em;
+}
+
+@media (max-width: 760px){
+
+    #somos{
+        p{
+            color: $dark;
+            font-size: 1.4em;
+            line-height: 1.2em;
+        }
+    }
+    #app{
+        position: relative;
+        text-align: center;
+        height: 46em;
+        display: block !important;
+        img.apps{
+            bottom: -6em;
+            width: 17em;
+        }
+        h3{
+            font-size: 1.5em;
+            margin-bottom: .5em;
+        }
+        h2{
+            font-size: 2em;
+            margin-bottom: .5em;
+        }
+    }
+   .btn-store{
+    display: flex;
+   }
+
+    .fotos{
+        margin-top: 7em;
+        margin-bottom: 0!important;
+        li.element{
+            width: 5em!important;
+            height: 5em!important;
+        }
+    }
+
+    .banner-indicado{
+        background: #232323 url(.././public/images/background/bg-indicado-mobile.png) center bottom no-repeat!important;
+        background-size: cover;
+        padding: 1em;
+        height: 58em;
+        align-items: start;
+
+        h3{
+            padding-top: 1em;
+        }
+       .plata{
+       position: absolute;
+       bottom: 26em;
+       left:0;
+       }
+    }
+
+    .banner-three{
+        height: 17em;
+       padding: 3em 0 0 0;
+      }
+    
+    #slide-novidades{
+        padding-bottom: 2em;
+        h3{
+            font-size: 1.4em;
+        }
+    }
+    #planos{
+        padding: 0 15px 3em 15px!important;
+        text-align: center;
+        .box-plano{
+            position: relative;
+            padding-top: 4rem;
+            text-align: center;
+            display: block!important;
+
+            .man{
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        .man-plano{
+            margin-bottom: 2em;
+        }
+        .tit-preco{
+            font-size: 2.4em;
+        }
+        .text-plano{
+            padding: 0!important;
+        }
+        .btn-primary{
+            margin-bottom: 1em;
+        }
+        .icon-plano{
+            width: 5rem;
+            left: 16rem;
+        }
+    }
+
+    .head h3{
+        font-size: 1em;
+    }
+
+    .owl-btn-center{
+        .owl-nav{
+            display: block;
+            margin: 0;
+        }
+    }
+
+    .depoimentos{
+        .sub-title{
+            font-size: 1.2em;
+        }
+    }
+
+   footer{
+    .widget{
+        a{display: block!important;
+        }
+        }
+    }
+
+    .mentorias{
+
+        .colab{
+            margin-bottom: 4em;
+        }
+        .mentor{
+            img{
+                width: 25em;
+            }  
+        }
+    }
+
+    .tile {
+        width:32%!important;
+        
+        img{
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+
+            &:hover{
+                filter: grayscale(0%);
+                -webkit-filter: grayscale(0%);
+                -moz-filter: grayscale(0%);
+            }
+        }
+       
+    }
+    label {
+        width:23%!important;
+    }
+
+}
