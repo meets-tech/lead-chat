@@ -17,7 +17,7 @@ function Somos() {
 
     return (
     <div className="">
-        <section id="somos" className="container pt-6 pb-5">
+        <section className="container pt-6 pb-5">
 
 			<div class="row justify-content-md-center mb-5" data-aos="fade-up" data-aos-duration="200">
 					<div class="col-lg-6 col-md-6 col-12 pos-relative text-center" data-aos="fade-up" data-aos-duration="100">
@@ -50,7 +50,7 @@ function Somos() {
 					</div>
 				</div>
 
-			<div className="align-items-center">
+			<div id="somos" className="align-items-center">
 				<div className="head style-3 mt-5 text-center">
 					<h2 className="title">Principais Funcionalidades</h2>
 					<h3 className="sub-title m-b20">Veja tudo que você terá em mãos no dia a dia para profissionalizar seus atendimentos.</h3>

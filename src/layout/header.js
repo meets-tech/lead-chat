@@ -84,7 +84,7 @@ function Header() {
                         <div className="extra-nav">
                             <div className="extra-cell">
                                 <Link
-                                    href="https://app.leadchat.com/login"
+                                    href="https://app.leadchat.com.br/login"
                                     target="_blank"
                                     className="btn btn-teste rounded"
                                     rel="noreferrer">
