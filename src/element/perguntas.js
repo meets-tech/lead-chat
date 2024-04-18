@@ -17,21 +17,21 @@ function Perguntas() {
             <div className="col-12">
             <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
-              <Accordion.Header>O que é o Leadmeets?</Accordion.Header>
+              <Accordion.Header>O que é o Leadchat?</Accordion.Header>
               <Accordion.Body>
-              É uma plataforma de automação com chatbot e WhatsApp  que ajuda você a conectar seu cliente de forma rápida e eficiente em tempo real.
+              É uma plataforma de automação com chatbot e WhatsApp que ajuda você a conectar seu cliente de forma rápida e eficiente em tempo real.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
               <Accordion.Header>Não conheço de tecnologia. Como vou saber o que fazer?</Accordion.Header>
               <Accordion.Body>
-              Você receberá suporte do nosso  time. Iremos  te ajudar  a construir seu bot e conectar sua linha.
+              Você receberá suporte do nosso time. Iremos  te ajudar a construir seu bot e conectar sua linha.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
-              <Accordion.Header>Como conectar meu WhatsApp com o LeadMeets?</Accordion.Header>
+              <Accordion.Header>Como conectar meu WhatsApp com o Leadchat?</Accordion.Header>
               <Accordion.Body>
-              A conexão com o Leadmeets é a mesma realizada com o WhatsApp web. Basta escanear o QR Code da plataforma e seu WhatsApp estará conectado.
+              A conexão com o Leadchat é a mesma realizada com o WhatsApp web. Basta escanear o QR Code da plataforma e seu WhatsApp estará conectado.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">

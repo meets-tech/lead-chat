@@ -51,10 +51,10 @@ function Secao () {
 							</ul>
 						</div>
 						<div className="banner-content text-center text-white">
-							<h1 className="m-b20 c-at center-mob" data-aos="fade-right" data-aos-duration="100">Chatbot com Central de Atendimento de WhatsApp<br/> <span>Automatize e Simplifique seu atendimento.</span></h1>
+							<h1 className="m-b20 c-at center-mob" data-aos="fade-right" data-aos-duration="100">Chatbot com Central de Atendimento de WhatsApp.<br/> <span>Automatize e Simplifique seu atendimento.</span></h1>
 							<h6 className="mt-2 center-mob" data-aos="fade-right" data-aos-duration="300">Receba, atenda e converta leads e clientes do WhatsApp em um só lugar!<br/> Gerencie tudo em uma única tela:</h6>
 							<div className="center-mob">
-								<a href="https://app.leadmeets.com/login" target="_blank" data-aos="fade-up" data-aos-duration="500" className="btn m-2 btn-teste rounded">Comece seu teste grátis</a>
+								<a href="https://app.leadchat.com.br/login" target="_blank" data-aos="fade-up" data-aos-duration="500" className="btn m-2 btn-teste rounded">Comece seu teste grátis</a>
 								<a href="https://wa.me/558192991786" target="_blank" data-aos="fade-up" data-aos-duration="300" className="btn m-2 btn-light rounded">Falar com um consultor</a>
 							</div>
 						</div>
